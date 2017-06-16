@@ -1,0 +1,26 @@
+{
+  "name": "click-bus-cash-machine",
+  "version": "1.0.0",
+  "description": "Click Bus Test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driverInside/click-bus-cash-machine.git"
+  },
+  "author": "Hiram E. Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/driverInside/click-bus-cash-machine/issues"
+  },
+  "homepage": "https://github.com/driverInside/click-bus-cash-machine#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
