@@ -1,6 +1,22 @@
+/**
+ * Checks if a 'number' is an integer.
+ * @param {Integer} number. Value to validate.
+ * @return {Bool}
+ * @public
+ */
+
 function isInteger(number) {
   return (number === parseInt(number, 10)) && number > 0;
 }
+
+/**
+ * Returns a set of bills from an amount
+ * @param {Integer} Amount. Value to 'convert'
+ * @return {Array} Set of values
+ * @throws InvalidArgumentException When the amount is invalid
+ * @throws NoteUnavailableException When there is not bills available
+ * @public
+ */
 
 function getCash(amount) {
   if(amount == null || amount === 0) return [];
